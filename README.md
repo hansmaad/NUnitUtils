@@ -13,15 +13,15 @@ Semantic comparison for NUnit constraint-based Assert. Some Examples:
     };
 
     [Test]
-    public void PublicProperties_True()
+    public void LikeConstraintTest()
     {
-        PublicProperties a = new PublicProperties(1)
+        var a = new Foo(1)
         {
             Number = 1,
             Text = "guru",
             B = new Bar()
         };
-        PublicProperties b = new PublicProperties(2)
+        var b = new Foo(2)
         {
             Number = 1,
             Text = "guru",
