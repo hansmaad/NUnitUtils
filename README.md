@@ -1,7 +1,7 @@
 # NUnitUtils
 
 ## LikeConstraint
-Some Examples
+Semantic comparison for NUnit constraint-based Assert. Some Examples:
 
     class Foo
     {
